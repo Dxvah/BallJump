@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class Player : MonoBehaviour
 {
@@ -9,15 +10,17 @@ public class Player : MonoBehaviour
     Rigidbody ballRigidbody;
     [SerializeField] GameObject trail;
     [SerializeField] int nivel = 1;
-
+    public GameObject gameOverPanel;
     public float initialPosition;
     public float endPosition;
+    public GameObject retryMenu;
 
     void Awake()
     {
         ballRigidbody = GetComponent<Rigidbody>();
         trail.SetActive(false);
         initialPosition = transform.position.y;
+        retryMenu.SetActive(false);
 
         //Debug.Log("Record actual =" + nivel.ToString());
     }
@@ -44,12 +47,14 @@ public class Player : MonoBehaviour
         if (collision.gameObject.tag == "Destructor")
         {
             Destroy(gameObject);
+            retryMenu.SetActive(true);
         }
         if (collision.gameObject.tag == "Meta")
         {
             endPosition = transform.position.y;
             ballRigidbody.constraints = RigidbodyConstraints.FreezeAll;
             GuardarDatos(true);
+            retryMenu.SetActive(true);
         }
     }
 
@@ -66,4 +71,21 @@ public class Player : MonoBehaviour
             PlayerPrefs.SetInt("Nivel Superado" + nivel.ToString(), 1);
         }
     }
+        public void PlayerDied() {
+        Time.timeScale = 0; // 
+        gameOverPanel.SetActive(true); 
+        
+        
+    }
+    
+    public void RestartLevel() {
+        Time.timeScale = 1; 
+        SceneManager.LoadScene(SceneManager.GetActiveScene().name); 
+    }
+    
+    public void ReturnToMainMenu() {
+        Time.timeScale = 1; 
+        SceneManager.LoadScene("MainMenu"); 
+    }
 }
+
