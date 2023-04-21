@@ -136,9 +136,10 @@ GameObject:
   - component: {fileID: 92317523}
   - component: {fileID: 92317522}
   - component: {fileID: 92317521}
+  - component: {fileID: 92317525}
   m_Layer: 0
   m_Name: Obstaculo (2)
-  m_TagString: Untagged
+  m_TagString: Obstaculo
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5415,6 +5416,22 @@ MonoBehaviour:
   m_SelectedFaces: 
   m_SelectedEdges: []
   m_SelectedVertices: 
+--- !u!54 &92317525
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 92317519}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 0
+  m_IsKinematic: 1
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
 --- !u!1 &92589624
 GameObject:
   m_ObjectHideFlags: 0
@@ -5442,8 +5459,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 92589624}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -1e-14, y: 7.45, z: 2e-14}
-  m_LocalScale: {x: 1.8360928, y: 14.565622, z: 1.7799673}
+  m_LocalPosition: {x: -1.9e-14, y: 7.45, z: -0.000000049039}
+  m_LocalScale: {x: 1.8360928, y: 14.565622, z: 1.264738}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1717123679}
@@ -5923,9 +5940,10 @@ GameObject:
   - component: {fileID: 548385945}
   - component: {fileID: 548385944}
   - component: {fileID: 548385943}
+  - component: {fileID: 548385947}
   m_Layer: 0
   m_Name: Obstaculo (6)
-  m_TagString: Untagged
+  m_TagString: Obstaculo
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -11202,6 +11220,22 @@ MonoBehaviour:
   m_SelectedFaces: 
   m_SelectedEdges: []
   m_SelectedVertices: 
+--- !u!54 &548385947
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 548385941}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 0
+  m_IsKinematic: 1
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
 --- !u!1 &601561783
 GameObject:
   m_ObjectHideFlags: 0
@@ -11349,9 +11383,10 @@ GameObject:
   - component: {fileID: 656581075}
   - component: {fileID: 656581074}
   - component: {fileID: 656581073}
+  - component: {fileID: 656581077}
   m_Layer: 0
   m_Name: Obstaculo (1)
-  m_TagString: Untagged
+  m_TagString: Obstaculo
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -16628,6 +16663,22 @@ MonoBehaviour:
   m_SelectedFaces: 
   m_SelectedEdges: []
   m_SelectedVertices: 
+--- !u!54 &656581077
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 656581071}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 0
+  m_IsKinematic: 1
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
 --- !u!1 &832575517
 GameObject:
   m_ObjectHideFlags: 0
@@ -16690,9 +16741,10 @@ GameObject:
   - component: {fileID: 902752275}
   - component: {fileID: 902752274}
   - component: {fileID: 902752273}
+  - component: {fileID: 902752277}
   m_Layer: 0
   m_Name: Obstaculo (5)
-  m_TagString: Untagged
+  m_TagString: Obstaculo
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -21969,6 +22021,22 @@ MonoBehaviour:
   m_SelectedFaces: 
   m_SelectedEdges: []
   m_SelectedVertices: 
+--- !u!54 &902752277
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 902752271}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 0
+  m_IsKinematic: 1
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
 --- !u!1 &1054371015
 GameObject:
   m_ObjectHideFlags: 0
@@ -22252,9 +22320,10 @@ GameObject:
   - component: {fileID: 1099679349}
   - component: {fileID: 1099679348}
   - component: {fileID: 1099679347}
+  - component: {fileID: 1099679351}
   m_Layer: 0
   m_Name: Obstaculo (4)
-  m_TagString: Untagged
+  m_TagString: Obstaculo
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -27531,6 +27600,22 @@ MonoBehaviour:
   m_SelectedFaces: 
   m_SelectedEdges: []
   m_SelectedVertices: 
+--- !u!54 &1099679351
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1099679345}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 0
+  m_IsKinematic: 1
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
 --- !u!1 &1165476712
 GameObject:
   m_ObjectHideFlags: 0
@@ -27544,9 +27629,10 @@ GameObject:
   - component: {fileID: 1165476716}
   - component: {fileID: 1165476715}
   - component: {fileID: 1165476714}
+  - component: {fileID: 1165476718}
   m_Layer: 0
   m_Name: Obstaculo
-  m_TagString: Untagged
+  m_TagString: Obstaculo
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -32823,6 +32909,22 @@ MonoBehaviour:
   m_SelectedFaces: 
   m_SelectedEdges: []
   m_SelectedVertices: 
+--- !u!54 &1165476718
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1165476712}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 0
+  m_IsKinematic: 1
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
 --- !u!43 &1192552272
 Mesh:
   m_ObjectHideFlags: 0
@@ -34048,7 +34150,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh27620
+  m_Name: pb_Mesh27624
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -34244,7 +34346,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh27642
+  m_Name: pb_Mesh27646
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -34416,7 +34518,7 @@ GameObject:
   - component: {fileID: 1717123681}
   m_Layer: 0
   m_Name: Level
-  m_TagString: Untagged
+  m_TagString: level
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -34433,8 +34535,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a9bef8da72f631c4bbc5516f06b0fcf1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 0.5
-  sceneWidth: 16
+  level: {fileID: 1717123677}
 --- !u!4 &1717123679
 Transform:
   m_ObjectHideFlags: 0
@@ -34705,6 +34806,7 @@ GameObject:
   - component: {fileID: 1932262467}
   - component: {fileID: 1932262466}
   - component: {fileID: 1932262465}
+  - component: {fileID: 1932262469}
   m_Layer: 0
   m_Name: DeadObstaculo
   m_TagString: Destructor
@@ -34720,7 +34822,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1932262463}
   m_LocalRotation: {x: -0, y: 0.9991487, z: -0, w: 0.041254785}
-  m_LocalPosition: {x: 2.55, y: -4.380001, z: 3.47}
+  m_LocalPosition: {x: 3, y: -4.380001, z: 3.1}
   m_LocalScale: {x: 2.701617, y: 1, z: 2.5785887}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -39984,6 +40086,22 @@ MonoBehaviour:
   m_SelectedFaces: 
   m_SelectedEdges: []
   m_SelectedVertices: 
+--- !u!54 &1932262469
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1932262463}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 0
+  m_IsKinematic: 1
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
 --- !u!1 &2046889812
 GameObject:
   m_ObjectHideFlags: 0
@@ -39996,6 +40114,7 @@ GameObject:
   - component: {fileID: 2046889816}
   - component: {fileID: 2046889815}
   - component: {fileID: 2046889814}
+  - component: {fileID: 2046889817}
   m_Layer: 0
   m_Name: Meta
   m_TagString: Meta
@@ -40082,6 +40201,22 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2046889812}
   m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!54 &2046889817
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2046889812}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 0
+  m_IsKinematic: 1
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
 --- !u!1 &2057572430
 GameObject:
   m_ObjectHideFlags: 0
@@ -40095,9 +40230,10 @@ GameObject:
   - component: {fileID: 2057572434}
   - component: {fileID: 2057572433}
   - component: {fileID: 2057572432}
+  - component: {fileID: 2057572436}
   m_Layer: 0
   m_Name: Obstaculo (3)
-  m_TagString: Untagged
+  m_TagString: Obstaculo
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -45374,6 +45510,22 @@ MonoBehaviour:
   m_SelectedFaces: 
   m_SelectedEdges: []
   m_SelectedVertices: 
+--- !u!54 &2057572436
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2057572430}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 0
+  m_IsKinematic: 1
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
 --- !u!1 &2122227511
 GameObject:
   m_ObjectHideFlags: 0

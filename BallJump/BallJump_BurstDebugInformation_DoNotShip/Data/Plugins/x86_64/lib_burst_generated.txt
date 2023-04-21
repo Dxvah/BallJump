@@ -147,8 +147,8 @@ Library: lib_burst_generated
 --root-assembly=C:\Users\idayr\OneDrive\Documentos\GitHub\BallJump\BallJump\Temp\StagingArea\Data\Managed\Unity.Services.Core.Environments.Internal.dll
 --root-assembly=C:\Users\idayr\OneDrive\Documentos\GitHub\BallJump\BallJump\Temp\StagingArea\Data\Managed\Unity.Burst.dll
 --root-assembly=C:\Users\idayr\OneDrive\Documentos\GitHub\BallJump\BallJump\Temp\StagingArea\Data\Managed\Unity.TextMeshPro.dll
---root-assembly=C:\Users\idayr\OneDrive\Documentos\GitHub\BallJump\BallJump\Temp\StagingArea\Data\Managed\Unity.ProBuilder.Poly2Tri.dll
 --root-assembly=C:\Users\idayr\OneDrive\Documentos\GitHub\BallJump\BallJump\Temp\StagingArea\Data\Managed\Assembly-CSharp.dll
+--root-assembly=C:\Users\idayr\OneDrive\Documentos\GitHub\BallJump\BallJump\Temp\StagingArea\Data\Managed\Unity.ProBuilder.Poly2Tri.dll
 --root-assembly=C:\Users\idayr\OneDrive\Documentos\GitHub\BallJump\BallJump\Temp\StagingArea\Data\Managed\Unity.Timeline.dll
 --root-assembly=C:\Users\idayr\OneDrive\Documentos\GitHub\BallJump\BallJump\Temp\StagingArea\Data\Managed\Unity.Services.Core.dll
 --root-assembly=C:\Users\idayr\OneDrive\Documentos\GitHub\BallJump\BallJump\Temp\StagingArea\Data\Managed\Unity.RenderPipeline.Universal.ShaderLibrary.dll
@@ -331,8 +331,8 @@ Library: lib_burst_generated
 --root-assembly=C:\Users\idayr\OneDrive\Documentos\GitHub\BallJump\BallJump\Temp\StagingArea\Data\Managed\Unity.Services.Core.Environments.Internal.dll
 --root-assembly=C:\Users\idayr\OneDrive\Documentos\GitHub\BallJump\BallJump\Temp\StagingArea\Data\Managed\Unity.Burst.dll
 --root-assembly=C:\Users\idayr\OneDrive\Documentos\GitHub\BallJump\BallJump\Temp\StagingArea\Data\Managed\Unity.TextMeshPro.dll
---root-assembly=C:\Users\idayr\OneDrive\Documentos\GitHub\BallJump\BallJump\Temp\StagingArea\Data\Managed\Unity.ProBuilder.Poly2Tri.dll
 --root-assembly=C:\Users\idayr\OneDrive\Documentos\GitHub\BallJump\BallJump\Temp\StagingArea\Data\Managed\Assembly-CSharp.dll
+--root-assembly=C:\Users\idayr\OneDrive\Documentos\GitHub\BallJump\BallJump\Temp\StagingArea\Data\Managed\Unity.ProBuilder.Poly2Tri.dll
 --root-assembly=C:\Users\idayr\OneDrive\Documentos\GitHub\BallJump\BallJump\Temp\StagingArea\Data\Managed\Unity.Timeline.dll
 --root-assembly=C:\Users\idayr\OneDrive\Documentos\GitHub\BallJump\BallJump\Temp\StagingArea\Data\Managed\Unity.Services.Core.dll
 --root-assembly=C:\Users\idayr\OneDrive\Documentos\GitHub\BallJump\BallJump\Temp\StagingArea\Data\Managed\Unity.RenderPipeline.Universal.ShaderLibrary.dll

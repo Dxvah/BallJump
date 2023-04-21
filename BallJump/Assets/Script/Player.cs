@@ -46,7 +46,7 @@ public class Player : MonoBehaviour
 
         if (collision.gameObject.tag == "Destructor")
         {
-            Destroy(gameObject);
+            gameObject.SetActive(false);
             retryMenu.SetActive(true);
         }
         if (collision.gameObject.tag == "Meta")
@@ -71,21 +71,24 @@ public class Player : MonoBehaviour
             PlayerPrefs.SetInt("Nivel Superado" + nivel.ToString(), 1);
         }
     }
-        public void PlayerDied() {
-        Time.timeScale = 0; // 
-        gameOverPanel.SetActive(true); 
-        
-        
+    
+    public void PlayerDied()
+    {
+        Time.timeScale = 0;
+        gameOverPanel.SetActive(true);
     }
     
-    public void RestartLevel() {
-        Time.timeScale = 1; 
-        SceneManager.LoadScene(SceneManager.GetActiveScene().name); 
+    public void RestartLevel()
+    {
+        Time.timeScale = 1;
+        SceneManager.LoadScene(SceneManager.GetActiveScene().name);
     }
     
-    public void ReturnToMainMenu() {
-        Time.timeScale = 1; 
-        SceneManager.LoadScene("MainMenu"); 
+    public void ReturnToMainMenu()
+    {
+        Time.timeScale = 1;
+        SceneManager.LoadScene("MainMenu");
     }
 }
+
 

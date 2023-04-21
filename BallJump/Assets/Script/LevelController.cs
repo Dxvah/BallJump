@@ -3,33 +3,19 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class LevelController : MonoBehaviour {
-    public float speed = 1f;
-    public float sceneWidth;
-    private Vector3 pressPoint;
-    private Quaternion startRotation;
-    private bool dragging = false;
+    
+    public GameObject level;
 
-    void Update() 
+    private void Update()
     {
-        if (dragging) 
+        if (Input.GetMouseButton(0))
         {
-            float currentDistanceBetweenMousePositions = (Input.mousePosition - pressPoint).x;
-            transform.rotation *= Quaternion.Euler(0, currentDistanceBetweenMousePositions / sceneWidth * 360, 0);
-
+            float rotX = Input.GetAxis("Mouse X") * 5f;
+            level.transform.Rotate(Vector3.up, -rotX, Space.World);
         }
     }
 
-    void OnMouseDown() 
-    {
-        dragging = true;
-        pressPoint = Input.mousePosition;
-        startRotation = transform.rotation;
-    }
 
-    void OnMouseUp() 
-    {
-        dragging = false;
-    }
 }
 
 

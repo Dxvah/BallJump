@@ -6,6 +6,8 @@ TagManager:
   tags:
   - Destructor
   - Meta
+  - level
+  - Obstaculo
   layers:
   - Default
   - TransparentFX
